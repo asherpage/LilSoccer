@@ -17,19 +17,24 @@ field.onclick = function(event){
     ball.style.left = ballCoordinates.left + "px";
     ball.style.top = ballCoordinates.top + "px";
 }
-$(function(){
+
+    function blue(){
+    let valu = $('#blue');
+    valu.text(parseInt(valu.text())+1)
+    console.log(valu.text())
+    }
+    function red(){
+    let valu = $('#red');
+    valu.text(parseInt(valu.text())+1)
+    console.log(valu.text())
+    }
+
  $('#goalOne').on('click', function(){
-  $(`.teamOne`).delay(1000).show(1000).delay(1200).hide(500);
+  $(`.teamOne`).delay(200).show(1000).delay(1000).hide(200);
 
  })
-})
-$(function(){
  $('#goalTwo').on('click', function(){
-  $(`.teamTwo`).delay(1000).show(1000).delay(1200).hide(500);
+  $(`.teamTwo`).delay(200).show(1000).delay(1000).hide(200);
 
  })
-})
-function blue(){
-    let val = document.getElementById(`blue`).value = 0;
-    document.getElementById(`blue`).innerHTML = val + 1;
-}
+

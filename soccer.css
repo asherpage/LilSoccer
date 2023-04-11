@@ -1,6 +1,13 @@
+@font-face {
+    font-family: benard;
+    src: url(./font/RussoOne-Regular.ttf);
+}
 html body{
     overflow: hidden;
 
+}
+.bb{
+    font-family: benard;
 }
 #field{
     position: absolute;
@@ -40,7 +47,7 @@ p{
     margin-top: 12vw;
     z-index: 9;
     height: 10vw;
-        cursor: url("./cleat.png"), pointer;
+        cursor: url("./goal.png"), pointer;
 }
 #goalTwo {
     background-color: white;
@@ -52,7 +59,7 @@ p{
     margin-top: 12vw;
     z-index: 9;
     height: 10vw;
-        cursor: url("./cleat.png"), pointer;
+        cursor: url("./goal.png"), pointer;
 }
 .teamOne{
     width: 100%;
