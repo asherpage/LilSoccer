@@ -1,6 +1,15 @@
+@font-face {
+    font-family: Benard;
+    src: url(./font/RussoOne-Regular.ttf);
+}
+
 html body{
     overflow: hidden;
 
+}
+.bb{
+    font-family: Benard;
+    font-style: normal;
 }
 #field{
     position: absolute;
