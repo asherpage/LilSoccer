@@ -17,3 +17,15 @@ field.onclick = function(event){
     ball.style.left = ballCoordinates.left + "px";
     ball.style.top = ballCoordinates.top + "px";
 }
+$(function(){
+ $('#goalOne').on('click', function(){
+  $(`.teamOne`).delay(1000).show(1000).delay(1200).hide(500);
+
+ })
+})
+$(function(){
+ $('#goalTwo').on('click', function(){
+  $(`.teamTwo`).delay(1000).show(1000).delay(1200).hide(500);
+
+ })
+})

@@ -8,9 +8,12 @@
     <title>Soccer</title>
 </head>
 <body>
-    <p>Bernard BALL!</p>
+    <p class="bb">Bernard BALL!</p>
+    <h1 class="score"></h1>
     <br>
     <div id="field">
+        <button id="goalOne">BLUE</button>
+        <button id="goalTwo">RED</button>
         <img src="https://en.js.cx/clipart/ball.svg" id="ball">
         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -18,6 +21,10 @@
         . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
     </div>
-    <script src="./soccer.js"></script>
+    <div class="teamOne">BLUE SCORED</div>
+    <div class="teamTwo">RED SCORED</div>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
