@@ -76,3 +76,8 @@ p{
     font-size: 5vw;
     position: absolute;
 }
+.score{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+}

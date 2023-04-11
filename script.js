@@ -29,3 +29,7 @@ $(function(){
 
  })
 })
+function blue(){
+    let val = document.getElementById(`blue`).value = 0;
+    document.getElementById(`blue`).innerHTML = val + 1;
+}
